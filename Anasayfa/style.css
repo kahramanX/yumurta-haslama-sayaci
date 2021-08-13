@@ -1,0 +1,148 @@
+/* Mini reset CSS */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    font-family: 'Kanit', sans-serif;
+    background-image: linear-gradient(180deg, #68D8E3, #FFFFFF);
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Mini reset CSS */
+
+h1 {
+    color: #7645d9;
+    font-size: 3em;
+}
+
+.container {
+    border: 3px solid #1fc7d4;
+    border-radius: 20px;
+    width: 40%;
+    min-width: 500px;
+    height: auto;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(30px);
+    /* blur effect */
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+}
+
+/*article kısmının üst kısmı */
+.without-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container article {
+    text-indent: 20px;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.container hr {
+    background-color: #1fc7d4;
+    width: 80%;
+}
+
+/*article kısmınıın üst kısmı */
+
+.container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.image img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.egg-name {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/* Seç .icon butonu */
+.icon {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    border-radius: 10px;
+    width: 3em;
+    height: 1em;
+    padding: 8px;
+    color: #fff;
+    transition: 0.3s background-color;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+}
+
+.icon i {
+    font-size: 1em;
+    margin-left: 5px;
+    transition: 0.3s margin-left;
+}
+
+.icon:hover>i {
+    margin-left: 10px;
+    transition: 0.3s margin-left;
+}
+
+.icon:hover {
+    transition: 0.3s background-color;
+    background-color: #67d8e3;
+}
+
+/* Seç .icon butonu */
+
+/* article kısmı düzenleme */
+article,
+hr {
+    display: none;
+}
+
+.article-icon>i {
+    font-size: 1.6em;
+    color: #fff;
+    transition: 0.3s margin-top;
+}
+
+.article-icon {
+    height: 28px;
+    border: 1px solid #1fc7d4;
+    background-color: #1fc7d4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s background-color;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+}
+
+.article-icon:hover {
+    background-color: #67d8e3;
+    transition: 0.3s background-color;
+}
+
+.article-icon:hover i {
+    margin-top: 5px;
+    transition: 0.3s margin-top;
+}
+
+/* article kısmı düzenleme */
+
+/* article içinde bulunan span etiketine düzenleme */
+article>p>span {
+    font-weight: 500;
+}
+
+/* article içinde bulunan span etiketine düzenleme */
