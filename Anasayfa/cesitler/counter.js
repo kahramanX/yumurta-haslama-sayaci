@@ -7,12 +7,15 @@ const reset = document.querySelector(".reset-btn");
 
 // element seçiliyor
 const parentMessages = document.querySelector(".info-messages");
-//Integer'a dönüştürülüyor
+const backHome = document.querySelector(".back-home");
+
+// Sayılar Integer'a dönüştürülüyor
 let minute = parseInt(minuteText.textContent);
 let second = parseInt(secondText.textContent);
 
 start.addEventListener("click", startCounter); // counter başlatır
 reset.addEventListener("click", resetCounter); // reset başlatır
+backHome.addEventListener("click", back); // Tıklandığında bir önceki sayfaya dönmeyi sağlar
 
 function startCounter() {
     console.log("Counter working...");
@@ -58,4 +61,8 @@ function addMessageToUI(type, message) { // Web sitesine uyarı mesajları yazd�
         parentMessages.removeChild(parentMessages.firstChild);
         clearInterval(setTime);
     }, 5000);
+}
+
+function back() {
+    history.back()
 }
