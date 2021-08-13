@@ -146,3 +146,23 @@ article>p>span {
 }
 
 /* article içinde bulunan span etiketine düzenleme */
+
+/*Anasayfanın mobil versiyonu*/
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 10%s;
+        min-width: 90%;
+        margin-right: 20px;
+    }
+
+    .image img {
+        width: 100px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    
+    .icon{
+        margin-right: 10px;
+    }
+}
+/*Anasayfanın mobil versiyonu*/

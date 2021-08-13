@@ -157,3 +157,27 @@ h1 {
 
 /* Sayaç başladı uyarısı */
 /* ++ Bilgilendirme mesajları ++ */
+
+/*Sayaç sayfalarının mobil versiyonu*/
+@media only screen and (max-width: 600px) {
+    .back-home {
+        width: 40px;
+        height: 40px;
+        margin: 20px 0 0 15px;
+        top: 0;
+    }
+
+    .back-home i {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .start-btn,
+    .reset-btn {
+        width: 120px;
+        height: 50px;
+    }
+}
