@@ -11,6 +11,10 @@ body {
     text-align: center;
     text-decoration: none;
 }
+/* i etiketlerini tıklanabilir yapıyor. Bu olmadığı zaman imleç i üzerindeyse buton çalışmıyordu*/
+.fas{
+    pointer-events: none; 
+}
 
 /* Mini reset CSS */
 
