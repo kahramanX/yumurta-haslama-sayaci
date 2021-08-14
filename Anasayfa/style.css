@@ -150,6 +150,11 @@ article>p>span {
 }
 
 /* article içinde bulunan span etiketine düzenleme */
+/* article kısmına müdahale eder */
+.my-toggle{
+    display: block;
+}
+/* article kısmına müdahale eder */
 
 /*Anasayfanın mobil versiyonu*/
 @media only screen and (max-width: 600px) {
